@@ -1,0 +1,8 @@
+BorderPane{
+    -fx-background-color: black;
+}
+
+Button{
+    -fx-background-color: red;
+    -fx-border-color: white;
+}

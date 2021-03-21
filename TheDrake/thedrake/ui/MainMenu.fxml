@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="MainMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@MainMenuStyles.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.MainMenuController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" stylesheets="@MainMenuStyles.css" BorderPane.alignment="BOTTOM_CENTER">
+         <children>
+            <Label fx:id="label" text="The Drake" textFill="WHITE">
+               <font>
+                  <Font name="Algerian" size="48.0" />
+               </font>
+            </Label>
+            <Button fx:id="play" mnemonicParsing="false" onAction="#onPlay" prefHeight="40.0" prefWidth="300.0" text="Hra dvou hráčů" textAlignment="CENTER" textFill="WHITE" translateY="50.0">
+               <font>
+                   <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" text="Hra proti počítači" textAlignment="CENTER" textFill="WHITE" translateY="50.0">
+               <font>
+                   <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" text="Hra po internetu" textAlignment="CENTER" textFill="WHITE" translateY="50.0">
+               <font>
+                   <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="end" mnemonicParsing="false" onAction="#onEnd" prefHeight="40.0" prefWidth="300.0" text="Konec" textAlignment="CENTER" textFill="WHITE" translateY="50.0">
+               <font>
+                   <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>

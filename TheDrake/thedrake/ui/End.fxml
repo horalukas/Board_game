@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="EndPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@EndStyles.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.EndController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" translateY="50.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="labelEnd" text="Label" translateY="-40.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="newGameButton" mnemonicParsing="false" onAction="#onNewGame" prefHeight="40.0" prefWidth="300.0" text="Nová hra">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="mainMenuButton" alignment="CENTER" mnemonicParsing="false" onAction="#onMainMenu" prefHeight="40.0" prefWidth="300.0" text="Hlavní nabídka">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </center>
+</BorderPane>
